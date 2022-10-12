@@ -1,0 +1,323 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="author" content="iordachedenisa19@stud.ase.ro" />
+    <link rel="stylesheet" href="../css3/style.css" />
+    <!-- legatura cu fisierul style.css -->
+    <title>Welcome to Greece!</title>
+    <link rel="icon" href="../media/harta.png" />
+  </head>
+
+  <body>
+    <div id="header">
+      <!--contine titlul, vremea, data si ora locala, steagurile-->
+      <h1 id="titlu">Bienvenue en Grèce!</h1>
+
+      <a
+        class="weatherwidget-io"
+        href="https://forecast7.com/fr/37d9823d73/athens/"
+        data-label_1="ATHENS"
+        data-label_2="WEATHER"
+        data-theme="original"
+        >ATHENS WEATHER</a
+      >
+    </div>
+    <div id="container">
+      <!--in container am ora si steagurile-->
+      <div id="ora">
+        <h2>Date/heure locale Athènes: <span id="datetime"></span></h2>
+      </div>
+
+      <div id="limbi">
+        <a href="index.html">
+          <img
+            class="steag"
+            src="https://upload.wikimedia.org/wikipedia/en/a/ae/Flag_of_the_United_Kingdom.svg"
+            alt="Steagul Marii Britanii"
+          />
+        </a>
+        <a href="de.html">
+          <img
+            class="steag"
+            src="https://upload.wikimedia.org/wikipedia/en/thumb/b/ba/Flag_of_Germany.svg/1280px-Flag_of_Germany.svg.png"
+            alt="Steagul Germaniei"
+          />
+        </a>
+        <a href="fr.html">
+          <img
+            class="steag"
+            src="https://upload.wikimedia.org/wikipedia/commons/6/62/Flag_of_France.png"
+            alt="Steagul Franței"
+          />
+        </a>
+        <a href="ro.html">
+          <img
+            class="steag"
+            src="https://upload.wikimedia.org/wikipedia/commons/7/73/Flag_of_Romania.svg"
+            alt="Steagul României"
+          />
+        </a>
+        <a href="gr.html">
+          <img
+            class="steag"
+            src="https://upload.wikimedia.org/wikipedia/commons/5/5c/Flag_of_Greece.svg"
+            alt="Steagul Greciei"
+          />
+        </a>
+      </div>
+    </div>
+
+    <main>
+      <!--in main am bara laterala si continutul-->
+      <div id="bara_laterala">
+        <!--in bara laterala am butoanele (meniul)-->
+        <button type="button" class="butoane" id="aboutBtn">
+          À propos de nous
+        </button>
+
+        <button type="button" class="butoane" id="sightseeingBtn">
+          Visite guidée
+        </button>
+
+        <button type="button" class="butoane" id="greekNightsBtn">
+          Nuits grecques
+        </button>
+
+        <button type="button" class="butoane" id="formBtn">
+          Formulaire d'enregistrement
+        </button>
+      </div>
+
+      <div id="about-us" class="continut">
+        <!--in clasa continut voi avea about us, sightseeing tour, greeknights si check-in form-->
+        <h4>À propos de nous</h4>
+        <p>
+          Situées juste au-dessus de la baie de Toroneos, ces villas et suites
+          de luxe à Halkidiki combine élégance et design minimaliste avec le
+          style typiquement Fond bleu-vert grec. La position de l'amphithéâtre,
+          le les équipements modernes et le restaurant gastronomique font du
+          Kappa Resort un choix idéal pour les escapades familiales et
+          romantiques.
+        </p>
+        <p>
+          Notre complexe comprend des villas luxueuses de quatre types
+          différents (1, 2, 3 ou 4 chambres), toutes avec piscines privées. De
+          plus, il a suites standard (1, 2 ou 3 chambres) avec piscine privée,
+          ainsi que appartements (junior suites, 1 ou 2 chambres) avec piscine
+          commune.
+        </p>
+
+        <p>
+          A l'extrémité sud de la péninsule de Kassandra, à seulement 120 km de
+          L'aéroport de Thessalonique (SKG), se trouve Paliouri, un quartier
+          calme et traditionnel village. Il est construit sur une colline, en
+          amphithéâtre vers la baie de Toroneos et il est entouré d'une forêt de
+          pins. Paliouri est connu pour sa profondeur plages de sable bleu. Il
+          reste une attraction stable pour les touristes, surtout pendant la
+          saison estivale.
+        </p>
+        <h4>Histoire</h4>
+        <p>
+          Une vieille légende prétend qu'aujourd'hui Paliouri était une ancienne
+          ville nommée Theramvos, qui est confirmé par les découvertes
+          archéologiques de la région, tandis que la ville est également
+          mentionnée par Hérodote. D'après Hérodote, la ville a été recrutée de
+          force par Xerxès et a supposé que c'est pourquoi il n'y a pas de
+          rapports d'écrivains plus tard. Pendant la période turque règle,
+          Paliouri était l'un des 12 villages qui ont formé la fondation de
+          Gkazanfer Aga et les villageois ont participé à la Révolution de 1821.
+          Le nom du village est dû à « paliouria », arbustes épineux utilisés
+          auparavant pour clôturer les maisons. Il appartient à la municipalité
+          de Kassandra et obtient toutes les installations et services d'accueil
+          modernes. Il y a beaucoup de visiteurs étrangers, principalement
+          pendant les mois d'été. Les village conserve encore son caractère
+          traditionnel composé d'étroites rues et de nombreuses maisons à
+          l'architecture du XIXe siècle. Enfin, si vous y arrivez, n'oubliez pas
+          d'acheter du miel et de l'huile d'olive, des produits pour pour
+          laquelle Paliouri est célèbre.
+        </p>
+        <p>
+          Enfin, en dehors de Paliouri, nous vous suggérons de visiter les
+          autres villages pittoresques et traditionnels de Kassandra et les
+          enchanteurs des plages.
+        </p>
+        <img
+          src="https://www.greeka.com/photos/macedonia/halkidiki/geography/hero/halkidiki-geography-1024.webp"
+          width="300"
+          height="200"
+        />
+        <h4>Suites à Halkidiki</h4>
+        <p>
+          Ce complexe de luxe sur la plage, est le choix idéal pour un séjour
+          des vacances en famille, ainsi que des lunes de miel ou une escapade
+          romantique. Profiter de la combinaison de suites privées de luxe haut
+          de gamme avec les commodités et services d'un hôtel cinq étoiles de
+          premier plan. Nos suites bénéficient de piscines privées ainsi qu'une
+          piscine partagée. Prélassez-vous au soleil en sirotant un cocktail
+          rafraîchissant contre la magnifique vue sur la mer ou offrez à votre
+          corps un soin apaisant massage sous une pergola. Prenez soin de vous
+          avec toute l'attention de notre personnel. Notre complexe comprend des
+          suites standard de trois différents types (1, 2 ou 3 chambres) avec
+          piscine privée, ainsi que junior suites d'un genre (2 chambres) qui
+          viennent avec une piscine partagée.
+        </p>
+        <img
+          src="https://cf.bstatic.com/xdata/images/hotel/max1280x900/157823235.jpg?k=62f2ffdc96847f68e86cae1041e0169ec40eb429f06bb4e9fb8d7d73245cdb6e&o=&hp=1"
+          width="300"
+          height="200"
+        />
+      </div>
+
+      <div id="sightseeing-content" style="display: none" class="continut">
+        <h4>Visite guidée</h4>
+        <ul id="event-list">
+          <li>
+            Naviguer à travers la mer Égée sur un yacht, un ferry ou une
+            goélette (navire traditionnel turc) et d'île en île
+          </li>
+          <img
+            src="https://keyassets.timeincuk.net/inspirewp/live/wp-content/uploads/sites/21/2019/06/navigating-by-stars-isbjorn-sextant-sighting-dawn-credit-59-north-630x394.jpg"
+            width="300"
+            height="200"
+          />
+          <li>
+            Assis à la terrasse d'un café à Santorin en regardant le port loin
+            en dessous, formé d'une ancienne caldeira volcanique
+          </li>
+          <img
+            src="https://media-cdn.tripadvisor.com/media/photo-s/13/d1/a2/1a/20180722-155603-largejpg.jpg"
+            width="300"
+            height="200"
+          />
+          <li>
+            Flâner dans les rues étroites et le port de Mykonos pour trouver
+            moulins à vent, tavernes et boutiques cachées
+          </li>
+          <img
+            src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS-rX0CrB1kwiz5u49vrOOPrBC1zf6KckBbAA&usqp=CAU"
+            width="300"
+            height="200"
+          />
+          <li>Visite du magnifique centre médiéval de la ville de Rhodes</li>
+          <img
+            src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSXJLjZNB2rAm8D1bAjURINSNdtQkUldYBqJg&usqp=CAU"
+            width="300"
+            height="200"
+          />
+        </ul>
+      </div>
+
+      <div id="greek-nights-content" style="display: none" class="continut">
+        <h4>Nuits grecques</h4>
+        <ul id="event-list1">
+          <li>LOCATION DE VÉLOS ÉLECTRIQUES</li>
+          <p>
+            Après un copieux petit-déjeuner dans notre restaurant, il est grand
+            temps que vous exploré la nature locale. La zone boisée autour de la
+            station est approprié pour des heures de randonnée et de
+            cartographie sans fin. Si tu souhaitez allier activités sportives et
+            divertissements, il existe toujours la possibilité de louer un vélo
+            dans notre station.
+          </p>
+          <li>DÉGUSTATION DE VIN</li>
+          <p>
+            La dégustation de vins est à coup sûr une procédure particulièrement
+            charmante pour amateurs de vin. De temps en temps, nous organisons
+            des soirées dégustation de vins à notre restaurant, où les
+            producteurs locaux ont la chance de présenter leurs propres
+            meilleurs vins produits. Ils expliquent les différences entre les
+            variétés et répondre à toutes les questions connexes. Goût Les vins
+            les plus exquis de Halkidiki dans le confort de notre restaurant.
+          </p>
+          <li>PÊCHE</li>
+          <p>
+            Halkidiki est connue pour son poisson frais et délicieux. Par
+            conséquent, nous offrez à tous les amoureux de la pêche la chance de
+            vivre une expérience unique avec notre propre voilier. Demandez à
+            notre skipper de vous fournir les équipement approprié.
+          </p>
+          <li>SUGGESTIONS D'ITINERAIRES DE RANDONNÉE</li>
+          <p>
+            Explorez la combinaison unique de la nature verte et de la mer
+            bleue. La première péninsule de Halkidiki cache de nombreux
+            itinéraires secrets pour vous découvrir. N'hésitez pas à demander à
+            notre réception pour plus de détails n et sentiers de randonnée
+            suggérés.
+          </p>
+        </ul>
+      </div>
+
+      <div id="form-content" style="display: none" class="continut">
+        <h4>Formulaire d'enregistrement</h4>
+        <form action id="check-in-form">
+          <div class="form-group">
+            <label for="start">Date d'arrivée:</label>
+            <input type="date" id="check-in" name="check-in" />
+          </div>
+
+          <div class="form-group">
+            <label for="start">Date de départ:</label>
+            <input type="date" id="check-out" name="check-out" />
+          </div>
+
+          <div class="form-group">
+            <label for="">Nom de famille: </label>
+            <input type="text" name="lastName" id="lastName" />
+          </div>
+
+          <div class="form-group">
+            <label for="">Prénom: </label>
+            <input type="text" name="firstName" id="firstName" />
+          </div>
+
+          <div class="form-group">
+            <label for="">E-mail: </label>
+            <input type="email" name="email" id="email" />
+          </div>
+
+          <div class="form-group">
+            <label for="">Numéro de téléphone: </label>
+            <input type="tel" name="phone" id="phone" />
+          </div>
+
+          <div class="form-group">
+            <label for="">Numéro de chambre: </label>
+            <input type="number" name="room" id="room" />
+          </div>
+
+          <div class="form-group">
+            <label for="">Sol: </label>
+            <input type="number" name="floor" id="floor" />
+          </div>
+
+          <div class="form-group">
+            <p>Type de paiement:</p>
+            <input type="checkbox" name="cardPay" id="cardPay" />
+            <label for="">Carte</label>
+            <input type="checkbox" name="cashPay" id="cashPay" />
+            <label for="">Espèces</label>
+          </div>
+
+          <div class="form-submit">
+            <input
+              type="button"
+              value="Submit"
+              onclick="generateQRCode()"
+              id="form-submit-btn"
+            />
+          </div>
+          <br />
+          <p id="qr-result"></p>
+          <canvas id="qr-code"></canvas>
+        </form>
+      </div>
+    </main>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/qrious/4.0.2/qrious.min.js"></script>
+    <!--script pentru lucrul cu QRCode-->
+    <script type="text/javascript" src="../javaScript/fr.js"></script>
+    <!-- legatura cu fisierul javascript -->
+  </body>
+</html>

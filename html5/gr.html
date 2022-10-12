@@ -1,0 +1,324 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="author" content="iordachedenisa19@stud.ase.ro" />
+    <link rel="stylesheet" href="../css3/style.css" />
+    <!-- legatura cu fisierul style.css -->
+    <title>Welcome to Greece!</title>
+    <link rel="icon" href="../media/harta.png" />
+  </head>
+
+  <body>
+    <div id="header">
+      <!--contine titlul, vremea, data si ora locala, steagurile-->
+      <h1 id="titlu">Καλως ηρθες στην ΕΛΛΑΔΑ!</h1>
+
+      <a
+        class="weatherwidget-io"
+        href="https://forecast7.com/el/37d9823d73/athens/"
+        data-label_1="ATHENS"
+        data-label_2="WEATHER"
+        data-theme="original"
+        >ATHENS WEATHER</a
+      >
+    </div>
+    <div id="container">
+      <!--in container am ora si steagurile-->
+      <div id="ora">
+        <h2>Τοπική ημερομηνία/ώρα Αθήνα: <span id="datetime"></span></h2>
+      </div>
+
+      <div id="limbi">
+        <a href="index.html">
+          <img
+            class="steag"
+            src="https://upload.wikimedia.org/wikipedia/en/a/ae/Flag_of_the_United_Kingdom.svg"
+            alt="Steagul Marii Britanii"
+          />
+        </a>
+        <a href="de.html">
+          <img
+            class="steag"
+            src="https://upload.wikimedia.org/wikipedia/en/thumb/b/ba/Flag_of_Germany.svg/1280px-Flag_of_Germany.svg.png"
+            alt="Steagul Germaniei"
+          />
+        </a>
+        <a href="fr.html">
+          <img
+            class="steag"
+            src="https://upload.wikimedia.org/wikipedia/commons/6/62/Flag_of_France.png"
+            alt="Steagul Franței"
+          />
+        </a>
+        <a href="ro.html">
+          <img
+            class="steag"
+            src="https://upload.wikimedia.org/wikipedia/commons/7/73/Flag_of_Romania.svg"
+            alt="Steagul României"
+          />
+        </a>
+        <a href="gr.html">
+          <img
+            class="steag"
+            src="https://upload.wikimedia.org/wikipedia/commons/5/5c/Flag_of_Greece.svg"
+            alt="Steagul Greciei"
+          />
+        </a>
+      </div>
+    </div>
+
+    <main>
+      <!--in main am bara laterala si continutul-->
+      <div id="bara_laterala">
+        <!--in bara laterala am butoanele (meniul)-->
+        <button type="button" class="butoane" id="aboutBtn">
+          Σχετικά με εμάς
+        </button>
+
+        <button type="button" class="butoane" id="sightseeingBtn">
+          Ξενάγηση
+        </button>
+
+        <button type="button" class="butoane" id="greekNightsBtn">
+          Ελληνικές Νύχτες
+        </button>
+
+        <button type="button" class="butoane" id="formBtn">
+          Φόρμα Check-In
+        </button>
+      </div>
+
+      <div id="about-us" class="continut">
+        <!--in clasa continut voi avea about us, sightseeing tour, greeknights si check-in form-->
+        <h4>Σχετικά με εμάς</h4>
+        <p>
+          Αυτές οι πολυτελείς βίλες και σουίτες βρίσκονται ακριβώς πάνω από τον
+          Τορωναίο κόλπο Η Χαλκιδική συνδυάζει την κομψότητα και τον
+          μινιμαλιστικό σχεδιασμό με το τυπικό Ελληνικό γαλαζοπράσινο φόντο. Η
+          αμφιθεατρική θέση, η Οι σύγχρονες ανέσεις και το γκουρμέ εστιατόριο
+          κάνουν το Kappa Resort ένα ιδανική επιλογή τόσο για οικογενειακές όσο
+          και για ρομαντικές αποδράσεις.
+        </p>
+        <p>
+          Το θέρετρό μας περιλαμβάνει πολυτελείς βίλες τεσσάρων διαφορετικών
+          τύπων (1, 2, 3 ή 4 υπνοδωμάτια), όλα με ιδιωτικές πισίνες. Επιπλέον,
+          έχει standard σουίτες (1, 2 ή 3 υπνοδωματίων) με ιδιωτική πισίνα,
+          καθώς και διαμερίσματα (junior σουίτες, 1 ή 2 υπνοδωματίων) με
+          κοινόχρηστη πισίνα.
+        </p>
+
+        <p>Όλα τα καταλύματα έχουν υπέροχη θέα στη θάλασσα.</p>
+
+        <p>
+          Στο νότιο άκρο της χερσονήσου της Κασσάνδρας, μόλις 120 χλμ Το
+          Αεροδρόμιο Θεσσαλονίκης (SKG), βρίσκεται το Παλιούρι, ένα ήσυχο και
+          παραδοσιακό χωριό. Είναι χτισμένο σε λόφο, αμφιθεατρικά προς τον
+          Τορωναίο κόλπο και περιβάλλεται από πευκοδάσος. Το Παλιούρι είναι
+          γνωστό για τα βαθιά του γαλάζιες αμμουδιές. Παραμένει ένα σταθερό πόλο
+          έλξης για τους τουρίστες, ειδικά την καλοκαιρινή περίοδο.
+        </p>
+        <h4>Ιστορικό</h4>
+        <p>
+          Ένας παλιός μύθος υποστηρίζει ότι σήμερα το Παλιούρι ήταν μια αρχαία
+          πόλη με το όνομα Θέραμβος, κάτι που επιβεβαιώνεται από αρχαιολογικά
+          ευρήματα της περιοχής, ενώ η πόλη αναφέρεται και από τον Ηρόδοτο.
+          Σύμφωνα με τον Ηρόδοτο, η πόλη στρατολογήθηκε βίαια από τον Ξέρξη και
+          υπέθεσε ότι γι' αυτό δεν υπάρχουν αναφορές μεταγενέστερων συγγραφέων.
+          Κατά την περίοδο του Τουρκ κανόνα, το Παλιούρι ήταν ένα από τα 12
+          χωριά που αποτέλεσαν το ίδρυμα του Γκαζανφέρ Αγά και χωρικοί
+          συμμετείχαν στην Επανάσταση του 1821. Το όνομα του χωριού οφείλεται
+          στα «παλιούρια», αγκαθωτούς θάμνους που χρησιμοποιούνται προηγουμένως
+          για περίφραξη σπιτιών. Ανήκει στον Δήμο της Κασσάνδρας και αποκτά όλες
+          τις σύγχρονες εγκαταστάσεις και υπηρεσίες φιλοξενίας. Υπάρχουν πολλοί
+          ξένοι επισκέπτες, κυρίως τους καλοκαιρινούς μήνες. ο χωριό εξακολουθεί
+          να διατηρεί τον παραδοσιακό του χαρακτήρα που αποτελείται από στενό
+          δρόμους και πολλά σπίτια με αρχιτεκτονική του 19ου αιώνα. Τέλος, αν
+          φτάσετε εκεί, μην ξεχάσετε να αγοράσετε μέλι και ελαιόλαδο, προϊόντα
+          για για το οποίο φημίζεται το Παλιούρι.
+        </p>
+        <p>
+          Τέλος, εκτός από το Παλιούρι, θα σας προτείναμε να επισκεφτείτε και το
+          άλλο γραφικά και παραδοσιακά χωριά της Κασσάνδρας και τα μαγευτικά
+          παραλίες.
+        </p>
+        <img
+          src="https://www.greeka.com/photos/macedonia/halkidiki/geography/hero/halkidiki-geography-1024.webp"
+          width="300"
+          height="200"
+        />
+        <h4>Σουίτες στη Χαλκιδική</h4>
+        <p>
+          Αυτό το πολυτελές θέρετρο πάνω στην παραλία, είναι η ιδανική επιλογή
+          για α οικογενειακές διακοπές, καθώς και μήνας του μέλιτος ή μια
+          ρομαντική απόδραση. Απολαύστε το συνδυασμός πολυτελών ιδιωτικών
+          σουιτών υψηλής ποιότητας με τις ανέσεις και υπηρεσίες κορυφαίου
+          ξενοδοχείου πέντε αστέρων. Οι σουίτες μας διαθέτουν ιδιωτικές πισίνες
+          καθώς και κοινόχρηστη πισίνα. Απολαύστε τον ήλιο πίνοντας ένα δροσερό
+          κοκτέιλ απέναντι στην υπέροχη θέα στη θάλασσα ή αφεθείτε στο σώμα σας
+          με ένα καταπραϋντικό μασάζ κάτω από μια πέργκολα. Περιποιηθείτε τον
+          εαυτό σας με την αμέριστη προσοχή από το προσωπικό μας. Το θέρετρό μας
+          περιλαμβάνει τυπικές σουίτες των τριών διαφορετικών τύπων (1, 2 ή 3
+          υπνοδωματίων) με ιδιωτική πισίνα, καθώς και junior σουίτες ενός είδους
+          (2 υπνοδωμάτια) που διαθέτουν κοινόχρηστη πισίνα.
+        </p>
+        <img
+          src="https://cf.bstatic.com/xdata/images/hotel/max1280x900/157823235.jpg?k=62f2ffdc96847f68e86cae1041e0169ec40eb429f06bb4e9fb8d7d73245cdb6e&o=&hp=1"
+          width="300"
+          height="200"
+        />
+      </div>
+
+      <div id="sightseeing-content" style="display: none" class="continut">
+        <h4>Ξενάγηση</h4>
+        <ul id="event-list">
+          <li>
+            Πλέοντας στο Αιγαίο με γιοτ, ferry boat ή gullet (παραδοσιακό
+            τουρκικό σκάφος) και νησιώτικο hopping
+          </li>
+          <img
+            src="https://keyassets.timeincuk.net/inspirewp/live/wp-content/uploads/sites/21/2019/06/navigating-by-stars-isbjorn-sextant-sighting-dawn-credit-59-north-630x394.jpg"
+            width="300"
+            height="200"
+          />
+          <li>
+            Καθισμένος στη βεράντα ενός καφέ στη Σαντορίνη αγναντεύοντας το
+            λιμάνι πολύ πιο κάτω, που σχηματίστηκε από μια αρχαία ηφαιστειακή
+            καλντέρα
+          </li>
+          <img
+            src="https://media-cdn.tripadvisor.com/media/photo-s/13/d1/a2/1a/20180722-155603-largejpg.jpg"
+            width="300"
+            height="200"
+          />
+          <li>
+            Περιπλανώμενος στα στενά δρομάκια και το λιμάνι της Μυκόνου για να
+            βρεις ανεμόμυλοι, ταβέρνες και κρυμμένα μαγαζιά
+          </li>
+          <img
+            src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS-rX0CrB1kwiz5u49vrOOPrBC1zf6KckBbAA&usqp=CAU"
+            width="300"
+            height="200"
+          />
+          <li>Επίσκεψη στο όμορφο μεσαιωνικό κέντρο της πόλης της Ρόδου</li>
+          <img
+            src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSXJLjZNB2rAm8D1bAjURINSNdtQkUldYBqJg&usqp=CAU"
+            width="300"
+            height="200"
+          />
+        </ul>
+      </div>
+
+      <div id="greek-nights-content" style="display: none" class="continut">
+        <h4>Ελληνικές Νύχτες</h4>
+        <ul id="event-list1">
+          <li>ΕΝΟΙΚΙΑΣΗ ΗΛΕΚΤΡΙΚΟΥ ΠΟΔΗΛΑΤΟΥ</li>
+          <p>
+            Μετά από ένα πλούσιο πρωινό στο εστιατόριό μας, ήρθε η ώρα
+            εξερεύνησε την τοπική φύση. Η δασώδης περιοχή γύρω από το θέρετρο
+            είναι κατάλληλο για ώρες ατελείωτης πεζοπορίας και χαρτογράφησης
+            τριγύρω. Αν εσύ επιθυμούν να συνδυάσουν τις αθλητικές δραστηριότητες
+            με την ψυχαγωγία, υπάρχει πάντα η δυνατότητα να νοικιάσετε ένα
+            ποδήλατο από το θέρετρό μας.
+          </p>
+          <li>Γευσιγνωσία ΚΡΑΣΙΟΥ</li>
+          <p>
+            Η γευσιγνωσία κρασιού είναι σίγουρα μια ιδιαίτερα γοητευτική
+            διαδικασία για λάτρεις του κρασιού. Κατά καιρούς διοργανώνουμε
+            βραδιές οινογευσίας στο το εστιατόριο μας, όπου τοπικοί παραγωγοί
+            έχουν την ευκαιρία να παρουσιάσουν τα δικά τους καλύτερα κρασιά.
+            Εξηγούν τις διαφορές μεταξύ των ποικιλιών και απάντηση σε όλες τις
+            σχετικές ερωτήσεις. Γεύση Τα πιο εκλεκτά κρασιά της Χαλκιδικής στην
+            άνεση του εστιατορίου μας.
+          </p>
+          <li>ΨΑΡΕΜΑ</li>
+          <p>
+            Η Χαλκιδική είναι γνωστή για το φρέσκο ​​νόστιμο ψάρι της. Ως εκ
+            τούτου, εμείς δώστε σε όλους τους λάτρεις του ψαρέματος την ευκαιρία
+            να ζήσουν μια μοναδική εμπειρία με το δικό μας ιστιοπλοϊκό. Ζητήστε
+            από τον κυβερνήτη μας να σας παρέχει το κατάλληλο εξοπλισμό.
+          </p>
+          <li>ΠΡΟΤΕΙΝΟΜΕΝΕΣ ΔΙΑΔΡΟΜΕΣ ΠΕΖΟΠΟΡΙΑΣ</li>
+          <p>
+            Εξερευνήστε τον μοναδικό συνδυασμό της πράσινης φύσης και της
+            γαλάζιας θάλασσας. Η πρώτη χερσόνησος της Χαλκιδικής κρύβει πολλές
+            μυστικές διαδρομές για εσάς ανακαλύπτω. Μη διστάσετε να ρωτήσετε την
+            υποδοχή μας για περισσότερες λεπτομέρειες n και πρότεινε μονοπάτια
+            πεζοπορίας.
+          </p>
+        </ul>
+      </div>
+
+      <div id="form-content" style="display: none" class="continut">
+        <h4>Φόρμα Check-In</h4>
+        <form action id="check-in-form">
+          <div class="form-group">
+            <label for="start">ημερομηνία Check-in:</label>
+            <input type="date" id="check-in" name="check-in" />
+          </div>
+
+          <div class="form-group">
+            <label for="start">ημερομηνία Check-out:</label>
+            <input type="date" id="check-out" name="check-out" />
+          </div>
+
+          <div class="form-group">
+            <label for="">Επίθετο: </label>
+            <input type="text" name="lastName" id="lastName" />
+          </div>
+
+          <div class="form-group">
+            <label for="">Ονομα: </label>
+            <input type="text" name="firstName" id="firstName" />
+          </div>
+
+          <div class="form-group">
+            <label for="">ΗΛΕΚΤΡΟΝΙΚΗ ΔΙΕΥΘΥΝΣΗ: </label>
+            <input type="email" name="email" id="email" />
+          </div>
+
+          <div class="form-group">
+            <label for="">Τηλεφωνικό νούμερο: </label>
+            <input type="tel" name="phone" id="phone" />
+          </div>
+
+          <div class="form-group">
+            <label for="">Αριθμός δωματίου: </label>
+            <input type="number" name="room" id="room" />
+          </div>
+
+          <div class="form-group">
+            <label for="">Πάτωμα: </label>
+            <input type="number" name="floor" id="floor" />
+          </div>
+
+          <div class="form-group">
+            <p>Είδος πληρωμής:</p>
+            <input type="checkbox" name="cardPay" id="cardPay" />
+            <label for="">Κάρτα</label>
+            <input type="checkbox" name="cashPay" id="cashPay" />
+            <label for="">Μετρητά</label>
+          </div>
+
+          <div class="form-submit">
+            <input
+              type="button"
+              value="Submit"
+              onclick="generateQRCode()"
+              id="form-submit-btn"
+            />
+          </div>
+          <br />
+          <p id="qr-result"></p>
+          <canvas id="qr-code"></canvas>
+        </form>
+      </div>
+    </main>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/qrious/4.0.2/qrious.min.js"></script>
+    <!--script pentru lucrul cu QRCode-->
+    <script type="text/javascript" src="../javaScript/gr.js"></script>
+    <!-- legatura cu fisierul javascript -->
+  </body>
+</html>

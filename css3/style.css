@@ -1,0 +1,215 @@
+* {
+  font-family: sans-serif;
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  background-color: whitesmoke;
+  /* border: 1px solid blue; */
+}
+
+p,
+img {
+  margin-bottom: 12px;
+}
+
+img {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+h4 {
+  margin-bottom: 8px;
+}
+
+h3 {
+  padding-bottom: 12px;
+}
+
+#titlu {
+  text-align: center;
+  padding: 16px 0px;
+}
+
+#container {
+  border-bottom: 2px solid #1f567c;
+}
+
+#ora {
+  padding: 16px;
+}
+
+#limbi {
+  padding: 8px;
+  display: flex;
+  align-items: flex-end;
+  justify-content: space-evenly;
+  gap: 16px;
+  flex-wrap: wrap;
+  width: 100%;
+}
+
+.steag {
+  width: 100px;
+  height: 41px;
+}
+
+main {
+  display: flex;
+  flex-direction: column;
+}
+
+#bara_laterala {
+  padding: 16px;
+}
+
+.butoane,
+#form-submit-btn,
+#submit-greek {
+  background-color: #1f567c;
+  color: white;
+  cursor: pointer;
+  padding: 18px;
+  width: 100%;
+  border: none;
+  text-align: left;
+  outline: none;
+  font-size: 15px;
+  font-weight: bold;
+  margin: 2px 0px;
+  border-radius: 12px;
+  transition-duration: 300ms;
+  transition-property: color, outline, background-color;
+}
+
+.butoane:hover,
+#form-submit-btn:hover,
+#submit-greek:hover {
+  background-color: aliceblue;
+  color: black;
+  outline: 2px solid #1f567c;
+}
+
+.continut {
+  padding: 16px;
+}
+
+#submit-greek{
+  outline: 2px solid #1f567c;
+  width: 100%;
+  padding: 8px 0px;
+  margin-top: 10px;
+  background-color: white;
+  color: #1f567c;
+  text-align: center;
+  width: 130px;
+}
+
+#submit-greek:hover{
+  cursor: pointer;
+  background-color: aliceblue;
+}
+
+#csvFile{
+  padding: 6px 20px;
+}
+
+.form-group {
+  padding: 4px;
+}
+
+#form-submit-btn {
+  outline: 2px solid #1f567c;
+  width: 100%;
+  padding: 8px 0px;
+  background-color: white;
+  color: #1f567c;
+  text-align: center;
+}
+
+#form-submit-btn:hover {
+  cursor: pointer;
+  background-color: aliceblue;
+}
+
+/* #check-in{
+  margin-left: 20px;
+}
+
+#check-out{
+  margin-left: 10px;
+}
+
+#lastName{
+  margin-left: 42px;
+}
+
+#firstName{
+  margin-left: 41px;
+}
+
+#email{
+  margin-left: 76px;
+}
+
+#phone{
+  margin-left: 10px;
+}
+
+#room{
+  margin-left: 13px;
+}
+
+#floor{
+  margin-left: 78px;
+} */
+
+#event-list > li {
+  margin-bottom: 8px;
+}
+
+#event-list,
+#event-list1 {
+  margin: 8px;
+  padding: 8px;
+}
+
+#check-in-form {
+  padding: 16px;
+}
+
+@media only screen and (min-width: 768px) {
+  #container {
+    display: flex;
+    align-items: center;
+  }
+
+  #ora {
+    width: 30%;
+  }
+
+  #limbi {
+    width: 70%;
+  }
+
+  main {
+    flex-direction: row;
+  }
+
+  .continut {
+    width: 70%;
+  }
+
+  #bara_laterala {
+    width: 30%;
+    border-right: 2px solid #1f567c;
+  }
+
+  #form-submit-btn {
+    width: 30%;
+  }
+
+  #event-list {
+    width: 70%;
+  }
+}
