@@ -1,7 +1,7 @@
 # Welcome-to-Greece-Site
 
 ## Link site
-https://denisa-iordache.github.io/Site-vizualizare-date-SV-PIB-PO/
+https://denisa-iordache.github.io/Welcome-to-Greece-Site/
 
 ## Tehnologii folosite
  Am folosit în realizarea aplicației HTML, CSS, JavaScript, fară framework-uri pentru acestea.<br />
